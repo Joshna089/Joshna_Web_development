@@ -1,0 +1,17 @@
+#submit {
+    color: #ee8af7;
+    background-color: purple;
+
+}
+/* Submit button hover effect */
+#submit:hover {
+        background-color: #a07dc0;
+        color: thistle;
+    }
+body{
+   
+    background-color: #f0f0f0;
+}
+h1{
+    color: #a07dc0;
+}

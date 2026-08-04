@@ -1,0 +1,16 @@
+h1{
+background-color:blue;
+}
+a{
+background-color: #1ce268;
+}
+span{
+background-color: rgb(136, 7, 136);
+}
+p{
+background-color: #b0eb0e;
+}
+.red{
+    color: red;
+    background: yellow;
+}

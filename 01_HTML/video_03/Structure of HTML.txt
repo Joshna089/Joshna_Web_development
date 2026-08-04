@@ -1,0 +1,15 @@
+Mobile Preview Tip 
+
+Type cmd in windows search and type "ipconfig"
+you'll see IPV4 address  then copy IPV4 address
+
+open VS Code > File > Preferences > Settings
+              OR
+open VS Code > Press ( Cntrl + , )     
+
+search for live preview and paste IPV4 address to Host IP 
+Write code then see live preview of html file you'll see hyperlink "http: // ip address/index.html "
+Now type URL in your mobile you can now see preview in your mobile
+
+Note: Make sure your laptop and your preview mobile should connect to same Wi-Fi Connection. 
+Also make sure your wifi is a private network.

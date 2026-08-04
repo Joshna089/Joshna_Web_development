@@ -1,0 +1,43 @@
+Core Web Vitals 
+       It means Google Checking "Is this Website fast + Smooth for people ? "
+Google has 3 tests. If you pass all 3 tests,Google puts your website on top.
+          
+1. LCP {Speed Test}
+( Largest Contentful Paint )       < 2.5 sec
+
+    How fast does the biggest thing shows up ?
+Example : You open your website. The big heading "Iam a ID" or "a big photo" 
+Google says : It should show in 2.5 seconds or less.
+Bad : 5 seconds to load. User gets bored and leaves.
+Fix : Make images small. Use fast internet / hosting .
+
+2. INP {Click Next}
+( Interaction to Next Paint )      < 200 ms
+
+    When I click something, does it reply fast? 
+Example : You click a button. Does the page change in 0.2 seconds ?
+Google says : "Yes, reply in 200ms or less"
+Bad : You click, wait 2 seconds , nothing happens. 
+Fix : Don't put too much heavy code. Keep it light.
+
+
+FID (First input delay)
+first input delay of < 100 ms 
+
+
+3. CLS { Jumping Test}
+( Cummulative Layout Shift )       <0.1
+
+    Does the page jump around while loading ?
+Example : You are reading text. Suddenly an ad comes and pushes everything down.
+Google says : No jumping keep it stable
+Bad : Page keeps moving. User clicks wrong button. 
+Fix : Tell image size first width =  "300" height ="200". So it won't jump.
+
+********************************
+How to check light house report 
+********************************
+go to crome open a website Example: amazon and right click inspect > lighthouse report
+Mobile/Desktop and then click analyse
+
+Take suggestions and make changes accordingly.

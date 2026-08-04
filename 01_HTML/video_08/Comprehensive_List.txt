@@ -1,0 +1,59 @@
+Block Elements 
+
+<div> : A generic container for flow content.
+<p> : Paragraph.
+<h1> to <h6> : Headings.
+<ul> : Unordered list.
+<ol> : Ordered list.
+<li> : List item.
+<form> : A section containing form controls.
+<table> : Table.
+<section> : A standalone section of a document.
+<header> : A container for introductory content or a set of navigational links.
+<footer>  : footer of a section or page.
+<nav>  : A section of a page that contains navigation links. 
+<article>  : A self-contained composition in a document.
+<aside>: A section of a page that contains information indirectly related to the main. 
+<main> : The main content of a document.
+<fieldset> : A set of form controls grouped under a common name.
+<Blockquote>  :  A block of text that is a quotation from another source. 
+<pre> : Preformatted text.
+<canvas> : A container used to draw graphics via javascript.
+<dl> : Description list.
+<dt> : Term in a Description list.
+<dd>:  Description in a description list.
+<figure> : Any content that is referenced from the main content.
+<figcaption> : A caption for a <figure> element.
+<address> : Contact information for the author or owner of the document.
+<hr> : A thematic break or a horizontal rule.
+<tfoot>: Footer of a table. 
+
+
+
+Inline Elements
+
+<a >
+<img>
+<span > generic Inline container
+<input >
+<label>
+<strong>
+<em >
+<br >
+<code >
+<b >
+<i >
+<u >
+<small >
+<sub >
+<sup>
+<mark> highlighted text
+<q> short inline quotation
+<cite > citation
+<kbd  > keyboard input
+<samp> sample output
+<var> variable in a mathematical expression or programming context.
+<time>   
+<abbr> Abbreviation
+<data > Machine readable translation of content.
+<acronym> acronym (not supported in html5)

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <form action="#">
+        <h1>Form for Sigma webdev- TA</h1>
+        <!--  The label for = input of id (should be same -When we click on label we can see cursor at input.
+  Ex: for = "name"  == id = "name") -->
+        <div>
+            <label for="name">Enter your name :</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <label for="email">Enter your email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+
+        <div>
+            <!-- same name different id's -->
+            <label> Gender :</label>
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+
+            <label for="course">Select your course:</label>
+            <select name="course" id="course">
+                <option value="MEC">MEC </option>
+                <option value="EEE">EEE</option>
+                <option value="Civil">Civil</option>
+                <option value="ECE">ECE</option>
+                <option value="CSE">CSE</option>
+            </select>
+        </div>
+        <div>
+            <label>Skills :</label>
+            <input type="checkbox" name="course" id="Python">
+            <label for="Python">Python</label>
+            <input type="checkbox" name="course" id="C Programming">
+            <label for="C Programming">C Programming</label>
+            <input type="checkbox" name="course" id="Java Script">
+            <label for="Java Script">Java Script</label>
+            <input type="checkbox" name="course" id="Java">
+            <label for="Java">Java</label>
+            <input type="checkbox" name="course" id="My SQL">
+            <label for="My SQL">My SQL</label>
+        </div>
+
+        <div>
+            <label for="message">Message :</label>
+        </div>
+
+        <div>
+            <!-- <textarea></textarea>
+             tag madyalo gap lekunda close cheyali -->
+            <textarea name="message" id="message" rows="6" cols="30" placeholder="enter your comment here"></textarea>
+        </div>
+
+        <!-- <input type="button" value="Send">   Not prefered because it is only button clickable but don't submit form-->
+        <input type="submit" value="Submit" id="submit" >
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

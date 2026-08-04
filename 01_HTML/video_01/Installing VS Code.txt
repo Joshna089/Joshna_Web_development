@@ -1,0 +1,22 @@
+Step 1: Download
+        Go to site : "code.visualstudio.com"
+        Click Download for Windows.
+        The .exe installer will Download.
+Step 2: install 
+        Double click the downloaded .exe file.
+        Accept Aggrement --> click next.
+        Check create a desktop icon.
+        IMPORTANT : Check add to path, open with code ,Register code as an editor --> next--> Install .
+Step 3: First Setup 
+        Open VS Code .
+        Go to Extensions tab on left side .
+        Install language Extensions.
+
+
+Turn on Auto Save :
+        File > Auto Save
+Don't Install to many Extensions :
+        Only install what you need.Too Many Extensions = VS code become Slow.
+Keep Updates ON :
+        Settings > Update : Mode = Default.
+        

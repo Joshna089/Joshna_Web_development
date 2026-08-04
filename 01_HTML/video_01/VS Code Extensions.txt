@@ -1,0 +1,16 @@
+VS Code Extensions
+
+1. VS Code icons
+2. Jelly fish / GitHub Theme / Material / Prettier Themes 
+3. live Preview ( without reload in browser code gets automatically reload)
+4. Prettier Code Formatter (Auto formats the code)
+5. ES7 (ES7 + React, Redux,React Native Snippets - JS/React shortcuts)
+
+
+
+
+Free Websites for Pictures
+
+1. Unsplash.com
+2. Pexels.com
+3. Pixabay.com

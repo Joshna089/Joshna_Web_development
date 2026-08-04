@@ -1,0 +1,14 @@
+semantic tags used for improving SEO .
+Maintain high Accessebility.
+Understandable code for browser.
+
+
+<header>
+<nav>
+<aside>
+<main >
+<article >
+<figure>
+<paragraph>
+<section>
+<footer>

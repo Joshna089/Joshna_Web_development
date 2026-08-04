@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images,Lists,Table.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Images</h1>
+    <img src="image_1.jpg" alt="nature pic" width="500">
+
+    <h1>Lists</h1>
+    <h3>Ordered lists</h3>
+    <ol>
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ol>
+     <ol type="i">                   <!--type attribute  -->
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ol>
+    <ol type="I">
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ol>
+    
+    <ol type="a">
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ol>
+    <ol type="A">
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ol>
+
+
+    <h3>Unordered lists</h3>
+
+    <ul>
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ul>
+    <ul type="circle">                     <!--type attribute  -->
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ul>
+    <ul type="square">
+        <li>Laptop</li>
+        <li>Keyboard</li>
+        <li>Mouse</li>
+    </ul>
+
+
+    <h3>Defination lists</h3>
+
+    <dl>               <!-- dd:defination list,dt: defination term ,dd: defination data  -->
+        <dt>Nature</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique quibusdam asperiores esse nobis facilis
+            aliquam repellat, non sequi fugiat debitis nihil perferendis doloribus?
+        </dd>
+
+        <dt>Technology</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error assumenda, explicabo cupiditate unde,
+            repudiandae
+            doloremque odio modi, tenetur quis voluptas est iusto voluptatibus quidem nesciunt?
+        </dd>
+    </dl>
+    <h1>Table</h1>
+<!-- tr:table row, th:table heading, td:table data -->
+    <table border="3" id="table">
+        <caption style="color: purple;">Student Details</caption>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Pavani</td>
+            <td>10th</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Akash</td>
+            <td>10th</td>
+            <td>70</td>
+        </tr>
+
+        <tr>
+            <td>Venu Gopal</td>
+            <td>10th</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <h3>row span</h3>
+    <table border="3" id="row">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Pavani</td>
+            <td>10th</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Akash</td>
+            <td>10th</td>
+            <td>70</td>
+        </tr>
+    </table>
+    <h3>coloumn span</h3>
+    <table border="3"id="cols">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td colspan="2">Pavani</td>
+            <td>10th</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Akash</td>
+            <td>10th</td>
+            <td>70</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
