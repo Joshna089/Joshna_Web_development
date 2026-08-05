@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(173, 207, 19);
+    background-color: rgb(175, 5, 33);
+}
+
+p {
+    color: thistle;
+    background-color: rgb(96, 61, 179);
+}
+
+span {
+    color: rgb(241, 107, 130);
+    background-color: rgb(95, 5, 20);
+}
