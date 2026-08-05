@@ -13,8 +13,10 @@
 
     <form action="#">
         <h1>Form for Sigma webdev- TA</h1>
-        <!--  The label for = input of id (should be same -When we click on label we can see cursor at input.
-  Ex: for = "name"  == id = "name") -->
+        <!--  The label for = input of id (should be same -When we click on label we can see cursor at input. -->
+        <!-- 'for' in label must match 'id' in input -->
+        <!-- 'name' attribute = sends data to server with this key. -->
+        <!--name = name, dob, gender, course, skils will be sent to server -->
         <div>
             <label for="name">Enter your name :</label>
             <input type="text" name="name" id="name" placeholder="Enter your name">
@@ -32,15 +34,17 @@
 
         <div>
             <!-- same name different id's -->
+            <!-- due to same name only one option get selected  -->
             <label> Gender :</label>
             <input type="radio" name="gender" id="Male">
             <label for="Male">Male</label>
             <input type="radio" name="gender" id="Female">
             <label for="Female">Female</label>
         </div>
-
+        
         <div>
 
+            <!-- select use name="course" so any one value can be sent to server  -->
             <label for="course">Select your course:</label>
             <select name="course" id="course">
                 <option value="MEC">MEC </option>
@@ -50,18 +54,20 @@
                 <option value="CSE">CSE</option>
             </select>
         </div>
+        
         <div>
+            <!-- All checkboxes use same name="skills" so multiple values can be sent to server  -->
             <label>Skills :</label>
-            <input type="checkbox" name="course" id="Python">
+            <input type="checkbox" name="skills" id="Python">
             <label for="Python">Python</label>
-            <input type="checkbox" name="course" id="C Programming">
-            <label for="C Programming">C Programming</label>
-            <input type="checkbox" name="course" id="Java Script">
+            <input type="checkbox" name="skills" id="C_Programming">
+            <label for="C_Programming">C Programming</label>
+            <input type="checkbox" name="skills" id="Java_Script">
             <label for="Java Script">Java Script</label>
-            <input type="checkbox" name="course" id="Java">
+            <input type="checkbox" name="skills" id="Java">
             <label for="Java">Java</label>
-            <input type="checkbox" name="course" id="My SQL">
-            <label for="My SQL">My SQL</label>
+            <input type="checkbox" name="skills" id="My_SQL">
+            <label for="My_SQL">My SQL</label>
         </div>
 
         <div>
@@ -69,8 +75,7 @@
         </div>
 
         <div>
-            <!-- <textarea></textarea>
-             tag madyalo gap lekunda close cheyali -->
+            <!-- <textarea> tag should be closed without gap in middle. -->
             <textarea name="message" id="message" rows="6" cols="30" placeholder="enter your comment here"></textarea>
         </div>
 
