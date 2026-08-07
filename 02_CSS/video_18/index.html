@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Box_model</title>
+    <style>
+        .box {
+            color: orangered;
+            background-color: lightgray;
+        }
+
+        /* margin collapse is a behavior where the vertical margins of adjacent elements are combined into a single margin whose size is the larger of the two margins. */
+        .box1 {
+            margin: 5px;
+            padding: 5px;
+            border: 5px solid navy;
+            height: 50px;
+            box-sizing: border-box;
+        }
+
+        .box2 {
+            margin: 10px;
+            padding: 10px;
+            border: 5px solid rgb(144, 202, 8);
+            height: 50px;
+            box-sizing: border-box;
+
+        }
+
+        /* box-sizing:border-box : it includes the padding and border in the element's total width and height ,***margin not included ***/
+    </style>
+</head>
+
+<body>
+    <!-- 2 classes can be applied to the same element -->
+    <div class="box box1">Box A</div>
+    <div class="box box2">Box B</div>
+
+    <P>Total Width = width + left padding + right padding + left border + right border + left margin + right margin</P>
+
+    <P>Total Height = Height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+    </P>
+    box1 = 50 + 5 + 5 + 5 + 5 + 5 + 10 = 85px<br>box2 = 50 + 10 + 10 + 5 + 5 + 10 + 10 = 100px
+    
+    <h4>Margin Collapse</h4>
+    <img src="margin_collapse.png" alt="margin_collapse_picture" height="300px" width="400px">
+</body>
+
+</html>
