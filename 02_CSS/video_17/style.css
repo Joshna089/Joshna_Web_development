@@ -1,0 +1,50 @@
+/*1. Element Selector */
+h1 {
+    color: blue;
+}
+
+/* 2.Class Selector */
+.p {
+    background-color: peachpuff;
+}
+
+/* 3.ID Selector */
+#s {
+    color: rgb(236, 94, 12);
+    background-color: greenyellow;
+}
+
+/*4. Child Selector */
+div > p {
+    color: gold;
+    background-color: green;
+}
+
+/*5. Descendant Selector */
+div p {
+    color: red;
+    background-color: yellow;
+}
+
+/*6. Universal Selector  */
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+/* 7. Pseudo Selectors */
+a:visited {
+    color: hotpink;
+    /* The background color does not apply to visited links in browsers due to security restrictions.Because hackers used javascript visited background links and steal information. */
+    /* background-color: rgb(90, 11, 54); */
+}
+
+a:hover {
+    color: green;
+}
+
+/* 8. Attribute Selector */
+[type="text"] {
+    color: white;
+    background-color: purple;
+}

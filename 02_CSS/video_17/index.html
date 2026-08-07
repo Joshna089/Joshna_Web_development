@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using of CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+-
+<body>
+    <!--Element Selector -->
+    <h1>Iam Heading1 Element </h1>
+
+    <!--Class Selector -->
+    <p class="p">Iam Paragraph Element </p>
+
+    <!--ID Selector -->
+    <span id="s">Iam Span Element </span>
+
+    <!--Class Selector -->
+    <p class="p">Iam Another Paragraph Element </p>
+    
+    <!-- Child Selector ,to see output comment down descendant selector in style.css file-->
+    <div>
+        <p>Iam a paragraph of child &#10084; selector example.</p>
+    </div>
+    <br>
+    <!-- Descendant Selector it overrides the child selector because both are with same specificity-->
+    <div>
+        <p>Iam a paragraph of &#10077; descendant &#10078; selector example.</p>
+        <h3>Iam a heading 3 element.</h3>
+        <span>Iam a span element.</span>
+        <p>Iam a paragraph of &#10077; descendant &#10078; selector example.</p>
+    </div>
+    
+    <!-- Pseudo Selectors -->
+    <a href="http://www.springboot.com" target="_blank">Spring Boot</a>
+    <a href="http://www.bajajelectronics.com">Bajaj Electronics</a>
+
+    <h3>Iam a heading 3 element</h3>
+    <!-- Attribute Selector -->
+    <label for="input1">Enter Name:</label>
+    <input type="text" name="name" id="input1" placeholder="Enter your name ">
+</body>
+
+</html>
