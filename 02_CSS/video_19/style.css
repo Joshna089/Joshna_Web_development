@@ -1,0 +1,87 @@
+ /* 1.Alignment and spacing */
+
+ /* 1) text-align: left/center/right/justify; 
+ ex:headings,buttons-center,paragraph-justify*/
+ h3 {
+     text-align: center;
+ }
+
+ p {
+     text-align: justify;
+ }
+
+ /* 2)line-height:1.5; or 24px; */
+
+ .p1 {
+     line-height: 1.5;
+ }
+
+ /* 3)letter-spacing:2px; */
+
+ .p2,
+ .submit {
+     letter-spacing: 2px;
+ }
+
+ /* 4)word-spacing:5px; */
+
+ .p3 {
+     word-spacing: 5px;
+ }
+
+ /* 5)text-indent:30px; */
+
+ .article {
+     text-indent: 30px;
+ }
+
+ /*6) text-transform:uppercase/lowercase/capitalize/none; */
+ .home {
+     text-transform: uppercase;
+ }
+
+ .about {
+     text-transform: lowercase;
+ }
+
+ .services,
+ .title {
+     text-transform: capitalize;
+ }
+
+ .contact {
+     text-transform: none;
+ }
+
+ /* 7) removing underline from links for anchor tag */
+ a {
+     text-decoration: none;
+ }
+
+ .line {
+     text-decoration: line-through;
+ }
+
+ /* 8) text-decoration-line/style/color/thickness; */
+ span {
+     text-decoration-line: underline;
+     text-decoration-style: wavy;
+     text-decoration-color: purple;
+     text-decoration-thickness: 2px;
+ }
+
+ /* 9) white-space:nowrap; */
+ nav {
+     white-space: nowrap;
+ }
+
+ /* 10) overflow:hidden; + text-overflow:ellipsis; */
+ .p4 {
+     border: 5px solid red;
+     /* IMPORTANT: width is mandatory for ellipsis otherwise it won't work. */
+     width:300px;
+     /* IMPORTANT: it is also must  */
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
